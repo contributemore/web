@@ -58,8 +58,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 58.33333333%;
+   max-width: 58.33333333%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -74,8 +74,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 41.66666667%;
+   max-width: 41.66666667%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -94,7 +94,7 @@ body
 }
 #wb_menu6Image
 {
-   margin: 0 15px 0 0 ;
+   margin: 15px 15px 15px 15px;
    vertical-align: top;
 }
 #menu6Image
@@ -195,9 +195,9 @@ clear: both;
    border: 0px solid #000000;
    border-radius: 0px;
    vertical-align: top;
-   margin: 0;
+   margin: 20px 10px 10px 10px;
    padding: 0;
-   text-align: left;
+   text-align: center;
 }
 #menu6Heading
 {
@@ -207,7 +207,7 @@ clear: both;
    font-style: normal;
    font-size: 27px;
    margin: 0;
-   text-align: left;
+   text-align: center;
    text-transform: none;
 }
 #menu6Heading a
@@ -222,7 +222,7 @@ clear: both;
    border: 1px solid transparent;
    border-radius: 0px;
    text-align: center;
-   margin: 0 8px 0 0 ;
+   margin: 20px 20px 20px 20px;
    padding: 0;
    vertical-align: top;
    display:inline-block;

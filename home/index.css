@@ -200,8 +200,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 58.33333333%;
+   max-width: 58.33333333%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -216,8 +216,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 41.66666667%;
+   max-width: 41.66666667%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -236,7 +236,7 @@ body
 }
 #wb_menu6Image
 {
-   margin: 0 15px 0 0 ;
+   margin: 0 15px 0 15px;
    vertical-align: top;
 }
 #menu6Image
@@ -364,7 +364,7 @@ clear: both;
    border: 1px solid transparent;
    border-radius: 0px;
    text-align: center;
-   margin: 0 8px 0 0 ;
+   margin: 0 15px 0 0 ;
    padding: 0;
    vertical-align: top;
    display:inline-block;
