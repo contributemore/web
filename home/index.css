@@ -1386,6 +1386,7 @@ clear: both;
    font-weight: normal;
    font-style: normal;
    font-size: 20px;
+   text-decoration: underline;
 }
 #contact3Card4-card-item1 a
 {
@@ -1402,6 +1403,7 @@ clear: both;
    font-weight: normal;
    font-style: normal;
    font-size: 20px;
+   text-decoration: underline;
 }
 #contact3Card4-card-item2 a
 {
@@ -1932,8 +1934,8 @@ clear: both;
    color: #000000;
    font-family: Arial;
    font-weight: bold;
-   font-size: 29px;
-   line-height: 33px;
+   font-size: 21px;
+   line-height: 24.5px;
 }
 #wb_Text1 p, #wb_Text1 ul
 {
@@ -1962,8 +1964,8 @@ clear: both;
    color: #000000;
    font-family: Arial;
    font-weight: bold;
-   font-size: 29px;
-   line-height: 33px;
+   font-size: 21px;
+   line-height: 24.5px;
 }
 #wb_Text2 p, #wb_Text2 ul
 {
