@@ -200,8 +200,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 58.33333333%;
-   max-width: 58.33333333%;
+   flex-basis: 50%;
+   max-width: 50%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -216,8 +216,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 41.66666667%;
-   max-width: 41.66666667%;
+   flex-basis: 50%;
+   max-width: 50%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -447,12 +447,12 @@ clear: both;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 0 0 60px 0;
+   padding: 10px 0 10px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1920px;
 }
-#article2LayoutGrid > .col-1, #article2LayoutGrid > .col-2, #article2LayoutGrid > .col-3
+#article2LayoutGrid > .col-1, #article2LayoutGrid > .col-2, #article2LayoutGrid > .col-3, #article2LayoutGrid > .col-4
 {
    box-sizing: border-box;
    font-size: 0;
@@ -461,7 +461,7 @@ clear: both;
    padding-left: 0px;
    position: relative;
 }
-#article2LayoutGrid > .col-1, #article2LayoutGrid > .col-2, #article2LayoutGrid > .col-3
+#article2LayoutGrid > .col-1, #article2LayoutGrid > .col-2, #article2LayoutGrid > .col-3, #article2LayoutGrid > .col-4
 {
    flex: 0 0 auto;
 }
@@ -471,8 +471,8 @@ clear: both;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -483,11 +483,8 @@ clear: both;
 }
 #article2LayoutGrid > .col-2
 {
-   background-color: transparent;
-   background-image: url('images/ABOUT.webp');
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
+   background-color: #FFFFFF;
+   background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    flex-basis: 41.66666667%;
@@ -501,6 +498,25 @@ clear: both;
    text-align: left;
 }
 #article2LayoutGrid > .col-3
+{
+   background-color: transparent;
+   background-image: url('images/ABOUT.webp');
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 41.66666667%;
+   max-width: 41.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+#article2LayoutGrid > .col-4
 {
    background-color: transparent;
    background-image: none;
@@ -518,7 +534,7 @@ clear: both;
 }
 @media (max-width: 768px)
 {
-#article2LayoutGrid > .col-1, #article2LayoutGrid > .col-2, #article2LayoutGrid > .col-3
+#article2LayoutGrid > .col-1, #article2LayoutGrid > .col-2, #article2LayoutGrid > .col-3, #article2LayoutGrid > .col-4
 {
    flex-basis: 100% !important;
    max-width: 100% !important;
@@ -539,7 +555,7 @@ clear: both;
 }
 #article2Card-card-body
 {
-   padding: 100px 50px 100px 50px;
+   padding: 50px 50px 50px 50px;
    flex: 1 1 auto;
    font-size: 0;
 }
@@ -611,7 +627,7 @@ clear: both;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 0 0 50px 0;
+   padding: 10px 0 10px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
