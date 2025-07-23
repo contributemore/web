@@ -773,7 +773,7 @@ clear: both;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 40px 0 40px 0;
+   padding: 35px 0 40px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -1417,6 +1417,69 @@ clear: both;
 #Button1:focus
 {
    outline: 0;
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0 0 40px 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#LayoutGrid4 > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .col-1
+{
+   flex: 0 0 auto;
+}
+#LayoutGrid4 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 768px)
+{
+#LayoutGrid4 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
 }
 #wb_testimonials14LayoutGrid1
 {
@@ -2395,4 +2458,28 @@ clear: both;
    font-weight: normal;
    font-style: normal;
    font-size: 16px;
+}
+#Button3
+{
+   box-sizing: border-box;
+   line-height: 43px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #000000;
+   border-radius: 0px;
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button3:focus
+{
+   outline: 0;
 }
