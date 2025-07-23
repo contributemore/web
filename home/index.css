@@ -773,7 +773,7 @@ clear: both;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 35px 0 40px 0;
+   padding: 30px 0 40px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -917,7 +917,7 @@ clear: both;
 #contact5LayoutGrid
 {
    box-sizing: border-box;
-   padding: 50px 0 50px 0;
+   padding: 50px 0 20px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -1439,7 +1439,7 @@ clear: both;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 0 0 40px 0;
+   padding: 20px 0 40px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
