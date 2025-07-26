@@ -1050,7 +1050,7 @@ clear: both;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: left;
+   text-align: center;
 }
 #contact6LayoutGrid2 > .row > .col-2
 {
@@ -1059,7 +1059,7 @@ clear: both;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: left;
+   text-align: center;
 }
 #contact6LayoutGrid2:before,
 #contact6LayoutGrid2:after,
@@ -1085,10 +1085,11 @@ clear: both;
 #wb_contact6Card1
 {
    position: relative;
-   display: flex;
+   display: inline-block;
    flex-direction: column;
    box-sizing: border-box;
    margin: 0 0 30px 0 ;
+   vertical-align: top;
    background-color: #FAFAFA;
    background-image: none;
    border: 0px solid #DEE2E6;
@@ -1173,10 +1174,11 @@ clear: both;
 #wb_contact6Card2
 {
    position: relative;
-   display: flex;
+   display: inline-block;
    flex-direction: column;
    box-sizing: border-box;
    margin: 0 0 30px 0 ;
+   vertical-align: top;
    background-color: #FAFAFA;
    background-image: none;
    border: 0px solid #DEE2E6;
